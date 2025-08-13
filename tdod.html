@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .center{
+            max-width: 90%;
+            margin: auto;
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .menu{
+            margin-right: 20px;
+        }
+        .img-container{
+            max-width: 550px;
+            height: 400px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .project{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* background-color: aqua; */
+             width: fit-content;
+             margin: 0 auto;
+             margin-top: 40px;
+             position: relative;
+        }
+        .content{
+            max-width: 532px;
+            display: flex;
+            justify-content: space-between;
+            column-gap: 200px;
+        }
+       .content-2{
+        display: flex;
+        column-gap: 20px;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <h1 class="h1">Gokul</h1>
+    <div class="menu">
+     <p class="menu">Menu</p>
+    </div>
+    </div>
+    <!-- Projcect -->
+     <main class="center">
+     <div class="project">
+     <h1>To-Do List</h1>
+     <div class="img-container">
+        <img src="Images/Checklist-pana.png" alt="">
+     </div>
+     <div class="content">
+       <div class="span-1">To-DO List</div>
+       <div class="content-2">
+       <div class="span-2">Git Hub</div>
+       <div>View</div>
+       </div>
+     </div>
+
+     <!-- Description -->
+      <main class="center">
+       <div class="dec">
+        <h1>Description</h1>
+        <p class="d-text">A browser-based task management application built with HTML, CSS, and JavaScript, leveraging Local Storage for persistent data management without a server. Designed to demonstrate front-end development skills and client-side data handling techniques.</p>
+       </div>
+      </main>
+     </main>
+</body>
+</html>
