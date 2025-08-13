@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="icon" href="Images/g-logo.jpg" type="image">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="main-div" class="animate">
+    <div id="main-div" class="animate ani-scale">
         <span id="menu">
             <ul id="ul">
                 <a href="#center" class="li">Home</a>
@@ -33,8 +36,8 @@
     </div>
 
     <!-- Home Page -->
-    <section id="center" class="animate ani-left">
-        <div class="home-div">
+    <section id="center">
+        <div class="home-div animate ani-left">
             <div class="text-div">
                 <h2 class="home-info">Hello,I'm</h2>
                 <h1 class="home-name">Gokul Krishna,</h1>
@@ -277,8 +280,12 @@
      <div class="accounts">
     <h1>Follow me</h1>
     <div class="acc">
-     <div class="icon-container-2"><i class="fa-brands fa-github"></i></div>
-     <div class="icon-container-2"><i class="fa-brands fa-linkedin-in"></i></div>
+     <div class="icon-container-2">
+        <a href="https://github.com/Gokulkrishna05-dev"><i class="fa-brands fa-github"></i></a>
+    </div>
+     <div class="icon-container-2">
+        <a href="https://www.linkedin.com/in/gokulkrishhh/"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
      <div class="icon-container-2"><i class="fa-brands fa-instagram"></i></div>
      </div>
      </div>
@@ -306,7 +313,7 @@
      </section>
      <footer>
         <div class="footer animate ani-scale">
-         <h3>Not just code, but a story by Gokul</h3>
+         <h3>Not just code, but a story by <span class="footer-name">Gokul</span></h3>
          <p class="rights">@2025 All Rights Reserved</p>
         </div>
      </footer>

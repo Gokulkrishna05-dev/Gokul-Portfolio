@@ -48,20 +48,24 @@ document.getElementById("form").addEventListener("submit",((e)=>{
      e.preventDefault()
     if(name.value!="" && msg.value!=""){
          validate()
+         name.value=""
+         mail.value=""
+         msg.value=""
     }
 }));
 
 function validate(){
-    pop.style.display="block"
+    pop.style.visibility="visible"
+    pop.style.transform="translateY(0px)"
     setTimeout(()=>{
-        pop.style.display="none"
+        pop.style.transform="translateY(600px)"
+        pop.style.visibility="hidden"
     },2000)
 }
 // Form
 
 // Scroll
 let animate=document.querySelectorAll(".animate")
-console.log(animate)
 let scrol = new IntersectionObserver(((entries)=>{
     entries.forEach((entry)=>{
         if(entry.isIntersecting){
