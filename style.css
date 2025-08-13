@@ -1357,7 +1357,7 @@ ul .li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--dot-);
+    background: var(--gradient-);
     border: solid 1px rgb(75,84,100);
     color: white;
     border-radius: 5px;
