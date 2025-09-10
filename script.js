@@ -31,7 +31,7 @@ let observer=new IntersectionObserver((entries)=>{
             document.querySelector(`nav a[href="#${entry.target.id}"]`).classList.add("active")
         }
     })
-},{threshold:0.5})
+},{threshold:0.2})
 
 sections.forEach((sections)=>observer.observe(sections))
 
@@ -74,7 +74,7 @@ let scrol = new IntersectionObserver(((entries)=>{
         scrol.unobserve(entry.target)
         }
     })
-}),{threshold:0.2})
+}),{threshold:0.1})
 
 animate.forEach((div)=>scrol.observe(div))
 // Scroll
